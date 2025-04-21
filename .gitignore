@@ -1,0 +1,16 @@
+# Ignorar arquivos de cache do Python
+__pycache__/
+*.py[cod]
+*.pyo
+funcoes_CSV.py
+
+# Ignorar o arquivo CSV
+cadastro_em_CSV.csv
+livros.csv
+
+# Ignorar arquivos do PyCharm
+.idea/
+
+# Ignorar ambientes virtuais
+venv/
+.env/
