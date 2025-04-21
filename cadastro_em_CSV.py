@@ -131,29 +131,3 @@ def menu():
 
 # Executando o menu
 menu()
-
-"""
-# Lê os registros salvos se houver
-try:
-    pessoas = ler_csv("cadastro_em_CSV.csv")
-
-except FileNotFoundError:
-    print("cadastro_em_CSV.csv será gerado")
-
-# Loop do programa
-while not sair:
-    if pessoas:
-        exibir_os_cadastrados(pessoas)
-
-    opcao = input("Você deseja adicionar um novo registro? (s/n): ").lower()
-    if opcao == "s":
-        nome = input("nome: ")
-        email = input("email: ")
-        pessoas = adicionar_registro(nome, email, pessoas)
-
-    elif opcao == "n":
-        r = input("sair? (s/n) ").lower()
-        if r == "s":
-            salvar_csv(pessoas, cabecalho, "cadastro_em_CSV.csv")
-            sair = True
-"""
