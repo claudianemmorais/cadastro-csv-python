@@ -7,6 +7,7 @@ funcoes_CSV.py
 # Ignorar o arquivo CSV
 cadastro_em_CSV.csv
 livros.csv
+CSV_CRUD.txt
 
 # Ignorar arquivos do PyCharm
 .idea/
